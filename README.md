@@ -36,10 +36,36 @@ The platform supports the full transaction lifecycle:
 
 ## Repository Structure
 
-- **PRDs/** — End-to-end product requirements for a payments platform
-- **Metrics/** — Outcome, guardrail, and system health metrics
-- **Flows/** — Transaction, refund, and risk decision flows
-- **Tradeoffs/** — Explicit product and architecture decisions
+### 📁 Product Requirements (PRDs)
+- [PRDs/](./PRDs)  
+  End-to-end product requirements covering the full payments lifecycle:
+  - Checkout orchestration
+  - Refunds & reconciliation
+  - Fraud & risk scoring
+  - Chargebacks & disputes
+  - Admin & access control
+  - Incident management & safety
+
+---
+
+### 📊 Metrics & Measurement
+- [Metrics/](./Metrics)  
+  Outcome metrics, guardrails, and metric philosophy used to evaluate platform health.
+
+---
+
+### 🔄 Flows & System Behavior
+- [Flows/](./Flows)  
+  Text-based flows describing transaction handling, refunds, and risk decisions.
+
+---
+
+### ⚖️ Trade-offs & Decisions
+- [Tradeoffs/](./Tradeoffs)  
+  Explicit product and architecture trade-offs (e.g. build vs buy, rules vs ML).
+
+---
+
 
 ## Disclaimer
 
